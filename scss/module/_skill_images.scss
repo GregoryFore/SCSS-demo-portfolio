@@ -1,0 +1,8 @@
+@for $i from 1 to 4 {
+  .tech-skill-image-#{$i} {
+    height: 150px;
+  background-image: url('../img/image_#{$i}.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+}
